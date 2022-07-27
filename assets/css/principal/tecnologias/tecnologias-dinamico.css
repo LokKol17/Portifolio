@@ -1,0 +1,48 @@
+.tecnologias__dinamico {
+    background-color: var(--corSetor);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    margin-right: 2rem;
+    box-shadow: 3px 2px 5px black;
+}
+.dinamico__titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--tech);
+    margin: 1rem 0;
+}
+.dinamico__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corImagem);
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.471);
+    box-sizing: border-box;;
+}
+.dinamico__imagem {
+    width: 180px;
+}
+.dinamico__descricao {
+    margin: 1rem 0;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: var(--montserrat);
+    line-height: 22px;
+}
+@media screen and (max-width: 680px) {
+    .tecnologias__dinamico {
+        width: 350px;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 380px) {
+    .tecnologias__dinamico {
+        width: 90%;
+        margin-right: 0;
+    }
+}
