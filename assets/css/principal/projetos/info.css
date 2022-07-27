@@ -1,0 +1,33 @@
+.projetos__info {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: var(--corSetor);
+    width: 300px;
+    height: 400px;
+    border-radius: 10px 0;
+    box-shadow: 3px 3px 7px black;
+    margin-right: 2rem;
+    border: 2px solid rgba(0, 0, 0, 0.634);
+}
+.info__titulo {
+    margin: 1rem 0 3rem 0;
+    font-size: 2rem;
+    font-family: var(--tech);
+}
+.info__container {
+    width: 100%;
+}
+.info__container > h4 {
+    padding-left: 10px;
+    font-size: 1.17rem;
+    font-family: var(--montserrat);
+    margin: 1rem 0;
+}
+.info__descricao {
+    padding: 7px;
+    text-indent: 15px;
+    font-size: 1.1rem;
+    font-family: var(--montserrat);
+    line-height: 23px;
+}

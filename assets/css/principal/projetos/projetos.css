@@ -1,0 +1,49 @@
+.projetos {
+    background-color: var(--corProjetos);
+    height: 500px;
+    padding: 4rem 3rem;
+}
+.projetos__titulo {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-family: var(--montserrat);
+    font-weight: 300;
+    border-top: 3px solid white;
+    display: inline-block;
+}
+.projetos__main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.projetos__container {
+    width: 750px;
+    height: 370px;
+    box-shadow: 3px 3px 9px black;
+}
+.projetos__lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    column-gap: 1rem;
+    background-color: var(--corSetor);
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.projetos__item {
+    background-color: var(--corImagem);
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    transition: all .6s;
+    border: 3px solid rgba(0, 0, 0, 0.582);
+}
+.projetos__item:hover {
+    transition: all .6s;
+    transform: scale(1.05);
+}
