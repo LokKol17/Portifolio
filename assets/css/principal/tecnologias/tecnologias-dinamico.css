@@ -4,7 +4,7 @@
     flex-flow: column nowrap;
     align-items: center;
     width: 350px;
-    height: auto;
+    height: 450px;
     margin-right: 2rem;
     box-shadow: 3px 2px 5px black;
 }
@@ -43,6 +43,7 @@
 @media screen and (max-width: 380px) {
     .tecnologias__dinamico {
         width: 90%;
+        height: auto;
         margin-right: 0;
         margin-bottom: 1rem;
     }
