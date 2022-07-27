@@ -31,3 +31,10 @@
     font-family: var(--montserrat);
     line-height: 23px;
 }
+
+@media screen and (max-width: 1200px) {
+    .projetos__info {
+    margin-right: 0;
+
+    }
+}
