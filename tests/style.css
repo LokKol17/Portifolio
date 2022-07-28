@@ -23,16 +23,15 @@ div {
 
 
 .h1 {
-    transition: all 1s;
+    transition: all .6s;
     animation-name: ha1;
     animation-duration: 1s;
 
 }
 .h2 {
-    
 }
 .h3 {
-    transition: all 1s;
+    transition: all .6s;
     animation-name: ha3;
     animation-duration: 1s;
 
