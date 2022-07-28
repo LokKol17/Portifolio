@@ -1,0 +1,39 @@
+/* @keyframes ha1 {
+    40% {transform: translate(0 , 25px) rotate(45deg);}
+}
+@keyframes ha3 {
+    40% {transform: translate(0 , -25px) rotate(-45deg);}
+} */
+
+
+body {
+    background-color: #227;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+div {
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+
+.h1 {
+    transition: all 1s;
+    animation-name: ha1;
+    animation-duration: 1s;
+
+}
+.h2 {
+    
+}
+.h3 {
+    transition: all 1s;
+    animation-name: ha3;
+    animation-duration: 1s;
+
+}
