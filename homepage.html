@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/root.css">
     <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/menu-hamburguer.css">
+    <link rel="stylesheet" href="./assets/css/menultr/menu-ltr.css">
     <link rel="stylesheet" href="./assets/css/principal/principal.css">
     <link rel="stylesheet" href="./assets/css/principal/introducao/introducao.css">
     <link rel="stylesheet" href="./assets/css/principal/tecnologias/tecnologias.css">
@@ -14,8 +15,10 @@
     <link rel="stylesheet" href="./assets/css/principal/projetos/projetos.css">
     <link rel="stylesheet" href="./assets/css/principal/projetos/info.css">
     <title>LokKol - Homepage</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
 </head>
-<body>
+<body id="body">
     <header class="cabecalho">
         <h1 class="cabecalho__titulo"><a href="./homepage.html">Lok_Kol</a></h1>
         
@@ -26,7 +29,22 @@
                 <li class="menu__item"><a href="#">Contato</a></li>
             </ul>
         </nav>
+        <nav class="menu__mobile">
+        <div class="menu-hamburger-wrapper" id="menuHamburgerWrapper">
+            <div class="hamburguer-1 hamburguer" id="hamburguer1"></div>
+            <div class="hamburguer-2 hamburguer" id="hamburguer2"></div>
+            <div class="hamburguer-3 hamburguer" id="hamburguer3"></div>
+        </div>
+    </nav>
     </header>
+    <menu class="menu-ltr" id="menuLtr">
+        <h2 class="menu-ltr__titulo">Lok_kol</h2>
+        <ul class="menu-ltr__lista">
+            <li class="menu-ltr__item"><a class="menu-ltr__link" href="#">Inicio</a></li>
+            <li class="menu-ltr__item"><a class="menu-ltr__link" href="#">Sobre Mim</a></li>
+            <li class="menu-ltr__item"><a class="menu-ltr__link" href="#">Contato</a></li>
+        </ul>
+    </menu>
     <main class="principal">
         <section class="introducao">
             <div class="introducao__quadro"><img class="introducao__imagem" src="" alt=""></div>
@@ -59,7 +77,7 @@
                 </div>
             </div>
         </section>
-        <section class="projetos">
+        <section class="projetos" style="filter: blur(1rem); user-select: none">
             <h1 class="projetos__titulo">Projetos</h1>
             <div class="projetos__main">
                 <div class="projetos__container">
@@ -84,18 +102,10 @@
 
         </section>
 
-
-
-
-
-
-
-
-
-
-
     </main>
     
     <script src="./assets/js/tecnologias.js"></script>
+    <script src="assets/js/menuHamburger.js"></script>
+    <script src="./assets/js/slider.js"></script>
 </body>
 </html>
