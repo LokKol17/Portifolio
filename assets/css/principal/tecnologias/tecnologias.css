@@ -1,5 +1,6 @@
 .tecnologias {
-    height: 550px;
+    min-height: 550px;
+    height: auto;
     background-color: #1b1b1b;
     padding: 4rem 3rem;
 }
@@ -15,7 +16,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .tecnologias__container {

@@ -1,6 +1,7 @@
 .introducao {
     display: flex;
     justify-content: center;
+    min-height: calc(627px - 72px);
     height: auto;
     /* height: calc(627px - 72px); */
     background-color: var(--corPrincipal);
@@ -13,8 +14,9 @@
     grid-area: quadro;
 }
 .introducao__imagem {
-    background-color: #3d3d3d;
-    width: 300px;
+    /* background-color: #3d3d3d; */
+    cursor: pointer;
+    width: auto;
     height: 300px;
 }
 .introducao__sobre {
@@ -34,7 +36,7 @@
     font-size: 1.3rem;
     font-family: var(--montserrat);
     line-height: 2.3rem;
-    width: 330px;
+    width: 550px;
 }
 
 @media screen and (max-width: 780px) {

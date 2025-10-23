@@ -27,3 +27,24 @@ h1 {
 h1, h2, h3, h4, p, a, li {
     color: white;
 }
+
+/* Toast notification */
+.toast {
+    position: fixed;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.85);
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+    font-family: var(--montserrat);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity .25s ease, transform .25s ease;
+}
+.toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
